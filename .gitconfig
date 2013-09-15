@@ -49,5 +49,5 @@
     ss = stash save
 
     #stats
-    cpt-commit = git shortlog -sne
+    cpt-commit = shortlog -sne
 
