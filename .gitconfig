@@ -62,3 +62,6 @@
     #stats
     cpt-commit = shortlog -sne
 
+    subup = !git submodule update && git submodule foreach "git pull origin master"
+    up = !git pull --rebase --prune $@ && git submodule update --init --recursive
+    push-clean = !git push && git repack && git prune
