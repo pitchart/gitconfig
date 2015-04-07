@@ -13,15 +13,18 @@
     remote = yellow
 
 [color "diff"]
-    meta = yellow
-    frag = magenta
-    old = red
-    new = green
+    meta = green
+    frag = yellow
+    old = magenta
+    new = cyan
 
 [color "status"]
-    added = red
-    changed = green
-    untracked = yellow
+    header = bold blue
+    added  = green
+    changed = bold red
+    untracked = bold yellow
+[push]
+    default = current
 
 [alias]
     # svn
