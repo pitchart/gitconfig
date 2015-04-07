@@ -1,8 +1,11 @@
+
 [core]
-    editor = /usr/bin/vim
+    filemode = false
+    editor = /usr/bin/vi
 
 [color]
     ui = true
+    pager = true
 
 [color "branch"]
     current = red reverse
