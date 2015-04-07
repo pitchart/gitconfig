@@ -27,18 +27,19 @@
     default = current
 
 [alias]
-    # svn
+    br = branch
     st = status
+    ci = commit
     df = diff
     co = checkout
-    ci = commit
-    br = branch
-    
+    cob = checkout -b
+
     # commons
     cm = commit -m
     s = status -s
     cp = cherry-pick -x
     bl = blame --date=short -w
+    amend = commit --amend
 
     # quick logs
     l = log --graph --decorate --pretty=format:'%Cred%H%Creset - %Cgreen%cd%Creset -%C(yellow)%d%Creset %s %C(bold blue)%an%Creset %C(magenta)<%ae>%Creset' --date=short
